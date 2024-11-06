@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Natasha Kelly</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
 </head>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class="w3-black w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-dark-purple-gradient w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-white" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
-    <h4><b>PORTFOLIO</b></h4>
-    <p class="w3-text-grey">Template by W3.CSS</p>
+    <img src="/w3images/avatar_g2.jpg" alt=" " style="width:45%;" class="w3-round"><br><br>
+    <h4><b>NATASHA KELLY</b></h4>
+    <p class="w3-text-white">Game Developer</p>
   </div>
   <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="index.html#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="index.html#events" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"><i class="fa fa-calendar fa-fw w3-margin-right"></i>EVENTS</a> 
   </div>
   <div class="w3-panel w3-large">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/in/natasha-kelly-70a674250/" target="_blank" rel="noopener noreferrer">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
   </div>
 </nav>
 
@@ -51,17 +49,35 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-container">
     <h1><b>My Portfolio</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
-      <span class="w3-margin-right">Filter:</span> 
-      <button class="w3-button w3-black">ALL</button>
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+      
     </div>
     </div>
   </header>
-  
-  
 
+  <section id="about">
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h2><b>Caved In</b></h2>
+    <img src="images/cavedin.png" alt="SXSW 2023 2023" style="width:100%">
+    <hr>
+    
+    <div style="margin-bottom:5px">
+      <a class= "w3-button w3-dark-purple w3-hide-small" href="https://speedy139.itch.io/caved-in" target="_blank" class="w3-button custom-blue w3-hide-small">
+        <i class="fa fa-external-link  w3-margin-right"></i>
+        <b>Play on Itch.io</b>
+      </a>
+    </div>
+  
+    <h4>About the Project</h4>
+      <p><b>Caved In</b> is a co-op first-person survival extraction game. Set within a cave system, 4-8 players need to plant samples and transport them back to the exit to open the elevator door and escape. Players may get infected while exploring the mine, but will hide it from the other players. Infected players lay traps to infect more players!</p>
+      <p>It was created over a  period of three months using <b>Unreal Engine 5</b> in Game Design Studio 2, a third year capstone subject in the Bachelor of Game Development.</p>
+    <h4>My Contribution</h4>
+    <p>Along with three other students, I developed many of the main mechanics of the game. My main contributions were some of the UI design, all of the map design, and the procedurally generated cave systems.</p>
+    <h4>What I Have Learned</h4>
+    <p>Using the Agile development model, I learnt about project management in game development. Regular playtesting with other UTS students gave us helpful feedback which we then analysed and used to improve the game. Using Unreal Engine was a challenge, as none of the development team had much experience in it, but we learned a lot from this experience and I am certainly more confident in the engine. I learnt much about using C++ and Unreal Blueprints to create my code and used many features I had little experience in, such as Unreal's networked online multiplayer system.</p>
+    <hr>
+    </section>
+    
+    
 <!-- End page content -->
 </div>
 

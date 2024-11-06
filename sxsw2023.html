@@ -1,40 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>W3.CSS Template</title>
+<title>Natasha Kelly</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 </style>
 </head>
-<body class="w3-light-grey w3-content" style="max-width:1600px">
+<body class="w3-black w3-content" style="max-width:1600px">
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-dark-purple-gradient w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
   <div class="w3-container">
-    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-white" title="close menu">
       <i class="fa fa-remove"></i>
     </a>
-    <img src="/w3images/avatar_g2.jpg" style="width:45%;" class="w3-round"><br><br>
-    <h4><b>PORTFOLIO</b></h4>
-    <p class="w3-text-grey">Template by W3.CSS</p>
+    <img src="/w3images/avatar_g2.jpg" alt=" " style="width:45%;" class="w3-round"><br><br>
+    <h4><b>NATASHA KELLY</b></h4>
+    <p class="w3-text-white">Game Developer</p>
   </div>
   <div class="w3-bar-block">
-    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+    <a href="index.html#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT ME</a> 
+    <a href="index.html#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PROJECTS</a> 
+    <a href="index.html#events" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-white"><i class="fa fa-calendar fa-fw w3-margin-right"></i>EVENTS</a> 
   </div>
   <div class="w3-panel w3-large">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <a href="https://www.linkedin.com/in/natasha-kelly-70a674250/" target="_blank" rel="noopener noreferrer">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
   </div>
 </nav>
 
@@ -51,17 +49,58 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <div class="w3-container">
     <h1><b>My Portfolio</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
-      <span class="w3-margin-right">Filter:</span> 
-      <button class="w3-button w3-black">ALL</button>
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Design</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Photos</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Art</button>
+      
     </div>
     </div>
   </header>
-  
-  
 
+  <section id="about">
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h2><b>Echo Rush</b></h2>
+    <video width=100% min-height=100% autoplay muted loop>
+      <source src="videos/echorushtrailer.mp4" type="video/mp4">
+    </video>
+    <hr>
+    
+    <div style="margin-bottom:5px">
+    <a class= "w3-button w3-dark-purple w3-hide-small" href="https://www.gamesstudio.org/articles/winners-tech-fest-student-games-showcase-sponsored-msi" target="_blank" class="w3-button custom-blue w3-hide-small">
+      <i class="fa fa-trophy  w3-margin-right"></i>
+      <b>Winner of UTS Tech Fest 2023 Best Game Design Methodologies Game</b>
+    </a>
+    </div>
+
+    <div style="margin-bottom:5px">
+    <a class= "w3-button w3-dark-purple w3-hide-small" href="https://www.gamesstudio.org/articles/winners-tech-fest-student-games-showcase-sponsored-msi" target="_blank" class="w3-button custom-blue w3-hide-small">
+      <i class="fa fa-trophy  w3-margin-right"></i>
+      <b>Winner of UTS Tech Fest 2023 Peoples Choice Game</b>
+    </a>
+    </div>
+
+    <div style="margin-bottom:5px">
+      <a class= "w3-button w3-dark-purple w3-hide-small" href="https://www.gamesstudio.org/articles/echo-rush-wins-best-student-game-award-sxsw" target="_blank" class="w3-button custom-blue w3-hide-small">
+        <i class="fa fa-trophy  w3-margin-right"></i>
+        <b>Winner of the Best Student Game Award at South By SouthWest 2023</b>
+      </a>
+      </div>
+
+    <div style="margin-bottom:5px">
+      <a class= "w3-button w3-dark-purple w3-hide-small" href="https://slival.itch.io/echorush" target="_blank" class="w3-button custom-blue w3-hide-small">
+        <i class="fa fa-external-link  w3-margin-right"></i>
+        <b>Play on Itch.io</b>
+      </a>
+    </div>
+  
+    <h4>About the Project</h4>
+      <p><b>Echo Rush</b> is a 2D platformer where you play as a young bat who has been accidentally left behind by his family. Echolocate to "see" through the darkness, maneuver through obstacles, and chase after your family!</p>
+      <p>It was created over a  period of three months using the <b>Unity Game Engine</b> in the Game Design Methodologies class, a second year subject in the Bachelor of Game Development.</p>
+    <h4>My Contribution</h4>
+    <p>Along with two other students, I helped to develop several main mechanics of the game, as well as creating Level 1.</p>
+    <h4>What I Have Learned</h4>
+    <p>The development of this game taught me much about project management in the game development industry through the use of the Agile development model, including multiple Sprints and regular SCRUM meetings. Regular playtesting allowed me to learn how to give and recieve meaningful feedback and make improvements to the game based on it. I also learnt how to use the Unity Game Engine and Github to code alongside a team, utilising the C# coding language.</p>
+    <hr>
+    </section>
+    
+    
 <!-- End page content -->
 </div>
 
